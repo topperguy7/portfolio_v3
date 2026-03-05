@@ -476,19 +476,23 @@ body{
   }
 
   .project-1{
-    width: 300px;
+    width: 240px;
+    border: 2px solid var(--bor);
   }
 
   .project-1-l{
-    font-size: 1rem;
+    font-size: .9rem;
+    padding: 8px;
   }
 
-  .project-l-1 i{
-    font-size: 12px;
+  .project-1-l i{
+    font-size: 16px;
+    padding: 4px;
   }
 
   .project-1-r{
-    width: 200px;
+    width: 240px;
+    top: 70%;
   }
 
   .exp1{

@@ -70,7 +70,7 @@ function Navbar() {
 
         <div className="med">
           <a href="#projects">Projects</a>
-          <a href="#">Experience</a>
+          <a href="#exp">Experience</a>
         </div>
 
         <div className="bot">
