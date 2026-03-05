@@ -19,3 +19,16 @@ This repository contains the source code for my personal developer portfolio web
 <li>Clean and modern UI design</li>
 <li>Mobile-friendly layout</li>
 </ul>
+<hr>
+
+🛠️ Tech Stack
+<ul>
+  <li>React</li>
+  <li>Tailwindcss</li>
+  <li>CSS Animations</li>
+</ul>
+<hr>
+
+👨‍💻 Author
+
+-Me
