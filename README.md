@@ -21,6 +21,15 @@ This repository contains the source code for my personal developer portfolio web
 </ul>
 <hr>
 
+## 🖼️ Preview
+
+Add a screenshot in your root folder and use:
+
+![App Screenshot](Screenshots/Screenshot-1.png)
+![App Screenshot](Screenshots/Screenshot-2.png)
+![App Screenshot](Screenshots/Screenshot-3.png)
+<hr>
+
 🛠️ Tech Stack
 <ul>
   <li>React</li>
