@@ -23,8 +23,6 @@ This repository contains the source code for my personal developer portfolio web
 
 ## 🖼️ Preview
 
-Add a screenshot in your root folder and use:
-
 ![App Screenshot](Screenshots/Screenshot-1.png)
 ![App Screenshot](Screenshots/Screenshot-2.png)
 ![App Screenshot](Screenshots/Screenshot-3.png)
