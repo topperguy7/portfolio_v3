@@ -240,6 +240,7 @@ body{
 }
 
 .hero-bot h1{
+  font-weight: 500;
   padding: 8px;
   font-size: 2rem;
 }
@@ -282,7 +283,7 @@ body{
 
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 0px;
 
   justify-content: center;
   align-items: center;
@@ -302,7 +303,7 @@ body{
 .project-wrapper{
   padding: 80px 0px;
   display: flex;
-  gap: 10px;
+  gap: 20px;
   animation: scrollx 20s linear infinite;
   width: fit-content;
 }
@@ -313,7 +314,6 @@ body{
 
 .project-1{
   position: relative;
-  width: 500px;
 
   border: 10px solid var(--bor);
   border-radius: 25px;
@@ -322,7 +322,10 @@ body{
 }
 
 .project-1-l{
-  font-size: 1.4rem;
+  width: 530px;
+  height: 700px;
+
+  font-size: 1.6rem;
   padding: 20px;
 }
 
@@ -471,8 +474,13 @@ body{
     width: 140px;
   }
 
+  .project{
+    gap: 20px;
+  }
+
   .project-wrapper{
     padding: 8px;
+    gap: 8px;
   }
 
   .project-1{
@@ -481,6 +489,8 @@ body{
   }
 
   .project-1-l{
+    width: 240px;
+    height: 500px;
     font-size: .9rem;
     padding: 8px;
   }

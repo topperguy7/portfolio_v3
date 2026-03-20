@@ -11,7 +11,7 @@ function Projects(props){
     <>
       <div className="project" id="projects">
 
-        <h1 className='lg:text-4xl'>Projects</h1>
+        <h1 className='lg:text-4xl font-bold'>✨ Projects</h1>
 
         <div className='project-contain'>
           <div className='project-wrapper'>

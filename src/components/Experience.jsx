@@ -3,7 +3,7 @@ function Experience(){
   return(
     <>
       <div className="exp" id="exp">
-        <h1 className="lg:text-4xl">✨ Work Experience</h1>
+        <h1 className="lg:text-4xl font-bold">✨ Work Experience</h1>
         <div className="exp1">
           <h1>Axcentra – Frontend Developer Intern | Remote | 02/2026-03/2026</h1><br></br>
           <p>• Built and deployed a responsive personal portfolio website using HTML, CSS, and JavaScript, ensuring

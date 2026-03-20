@@ -14,7 +14,7 @@ function Hero(){
 
         <div className="hero-bot">
           <div>
-            <h1>Language</h1>
+            <h1>Languages</h1>
             <div className='marque'>
               <div className='logo1'>
                 <i className='devicon-c-plain'></i>
