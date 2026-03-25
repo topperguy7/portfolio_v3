@@ -13,12 +13,14 @@
 :root{
   --bg1: white;
   --text1: black;
+  --text2: white;
   --bor: rgba(33, 90, 181, 0.35);
 }
 
 .dark{
   --bg1: black;
   --text1: white;
+  --text2: gray;
   --bor: hsl(330, 46%, 54%);
 }
 
@@ -193,10 +195,21 @@ body{
 
 .hero-top h1{
   font-size: 5rem;
+  font-weight: 800;
 }
 
 .hero-top h2{
-  font-size: 4rem;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.hero-top h2 .highlight{
+  color: hsl(330, 46%, 54%);
+}
+
+.hero-top p{
+  margin-top: -10px;
 }
 
 .inside{
@@ -304,7 +317,7 @@ body{
   padding: 80px 0px;
   display: flex;
   gap: 20px;
-  animation: scrollx 20s linear infinite;
+  animation: scrollx 40s linear infinite;
   width: fit-content;
 }
 
@@ -312,8 +325,14 @@ body{
   animation-play-state: paused;
 }
 
+.project-wrapper:hover .project-1 {
+  opacity: 0.4;
+  filter: blur(2px);
+}
+
 .project-1{
   position: relative;
+  overflow: visible;
 
   border: 10px solid var(--bor);
   border-radius: 25px;
@@ -322,8 +341,9 @@ body{
 }
 
 .project-1-l{
-  width: 530px;
-  height: 700px;
+  flex: 0 0 auto;
+  width: 520px;
+  height: auto;
 
   font-size: 1.6rem;
   padding: 20px;
@@ -331,6 +351,15 @@ body{
 
 .project-1-l h1{
   color: hsl(330, 46%, 54%);
+  margin-bottom: 12px;
+}
+
+.project-1-l h3{
+  color: var(--text2);
+}
+
+.project-1-l p{
+  margin: 6px 0px;
 }
 
 .project-1-l i{
@@ -340,8 +369,10 @@ body{
 
 .project-1-r{
   position: absolute;
-  top: -10%;
-  left: 10%;
+  bottom: 20px;
+  left: 70%;
+  transform: translateX(-50%) scale(0.9);
+  z-index: 10;
 
   width: 500px;
   padding: 4px;
@@ -349,6 +380,9 @@ body{
   border: 1px solid var(--bor);
   border-radius: 10px;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
   
   transition: all 0.4s ease-in-out;
   opacity: 0;
@@ -359,69 +393,112 @@ body{
   object-fit:cover;
 }
 
+.project-1:hover {
+  opacity: 1 !important;
+  filter: none !important;
+  transform: scale(1.05);
+}
+
 .project-1:hover .project-1-r{
   opacity: 1;
   transform: translateY(-10px) scale(1.05);
 }
 
-.exp{
-  height: calc(100vh - 20px);
-  
+.lastP{
+  display: none;
+}
+
+.exp {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-
-  gap: 40px;
+  gap: 30px;
 
   color: var(--text1);
+
+  margin: 50px;
 }
 
-.exp h1{
-  color: var(--text1);
-}
+.exp-card {
+  width: 100%;
+  max-width: 1200px;
 
-.exp1{
-  width: 1200px;
+  padding: 22px;
 
-  padding: 20px;
-  background: transparent;
-  backdrop-filter: blur(20px);
-  border: 1px solid var(--bor);
   border-radius: 20px;
-
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
-  transition: all 0.4s ease-in-out;
-}
-
-.exp1:hover{
-  transform: translateY(-6px);
-}
-
-.exp2{
-  width: 1200px;
-
-  padding: 20px;
-  background: transparent;
-  backdrop-filter: blur(20px);
   border: 1px solid var(--bor);
-  border-radius: 20px;
+  border-left: 4px solid hsl(330, 46%, 54%);
 
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
-  transition: all 0.4s ease-in-out;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(18px);
+
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+
+  transition: all 0.35s ease;
 }
 
-.exp2:hover{
-  transform: translateY(-6px);
+.exp-card:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.6);
 }
 
-.exp1 h1, .exp2 h1{
+.company {
+  font-size: 4rem;
+  font-weight: 700;
   color: hsl(330, 46%, 54%);
-  font-weight: bold;
 }
 
-.exp1 p, .exp2 p{
-  padding: 4px;
+.meta {
+  font-size: 1.5rem;
+  opacity: 0.7;
+  margin-bottom: 12px;
+}
+
+.exp-card ul {
+  margin-top: 10px;
+}
+
+.exp-card ul li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+  font-size: 1.8rem;
+
+  transition: transform 0.2s ease;
+}
+
+.exp-card ul li:hover {
+  transform: translateX(4px);
+}
+
+.tags {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags span {
+  font-size: 12px;
+  padding: 5px 10px;
+
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid var(--bor);
+
+  backdrop-filter: blur(6px);
+
+  transition: all 0.2s ease;
+}
+
+.tags span:hover {
+  background: hsl(330, 46%, 54%);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.exp h1 {
+  color: var(--text1);
+  letter-spacing: 0.5px;
 }
 
 .font-cge{
@@ -454,8 +531,21 @@ body{
     padding: 2px;
   }
 
-  .hero-top h1, .hero-top h2{
+  .hero{
+    margin-top: 50px;
+  }
+
+  .hero-top h1{
+    font-size: 2.5rem;
+  }
+
+  .hero-top h2{
     font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .hero-top p{
+    margin-top: 10px;
   }
 
   .hero-bot{
@@ -478,19 +568,25 @@ body{
     gap: 20px;
   }
 
+  .project-contain{
+    overflow-x: auto;
+  }
+
   .project-wrapper{
     padding: 8px;
     gap: 8px;
+
+    animation: none;
   }
 
   .project-1{
+    height: auto;
     width: 240px;
     border: 2px solid var(--bor);
   }
 
   .project-1-l{
     width: 240px;
-    height: 500px;
     font-size: .9rem;
     padding: 8px;
   }
@@ -502,14 +598,30 @@ body{
 
   .project-1-r{
     width: 240px;
-    top: 70%;
+    left: 30%;
   }
 
-  .exp1{
-    width: 360px;
+  .project-1:hover{
+    transform: scale(1.01);
   }
 
-  .exp2{
-    width: 360px;
+  .lastP{
+    display: block;
+  }
+
+  .exp{
+    margin: 20px;
+  }
+
+  .exp-card {
+    padding: 16px;
+  }
+
+  .company {
+    font-size: 1.1rem;
+  }
+
+  .exp-card ul li {
+    font-size: 0.9rem;
   }
 }

@@ -1,31 +1,54 @@
-function Experience(){
+function Experience() {
+  return (
+    <div className="exp px-4 py-10" id="exp">
+      
+      <h1 className="text-3xl lg:text-4xl font-bold text-center mb-10">
+        ✨ Work Experience
+      </h1>
 
-  return(
-    <>
-      <div className="exp" id="exp">
-        <h1 className="lg:text-4xl font-bold">✨ Work Experience</h1>
-        <div className="exp1">
-          <h1>Axcentra – Frontend Developer Intern | Remote | 02/2026-03/2026</h1><br></br>
-          <p>• Built and deployed a responsive personal portfolio website using HTML, CSS, and JavaScript, ensuring
-          <span className="font-cge"> cross-device compatibility</span>.</p>
-          <p>• Developed a <span className="font-cge">Weather</span> Application integrating <span className="font-cge">third-party REST APIs</span> to 
-          fetch and display real-time weather data dynamically.</p>
-          <p>• Designed and implemented a full-stack <span className="font-cge">Student Dashboard</span> with complete <span className="font-cge">CRUD</span> functionality using JavaScript and SQL, handling structured <span className="font-cge">data operations efficiently</span>.</p>
-          <p>• Completed 4+ frontend-focused projects emphasizing <span className="font-cge">API integration, DOM manipulation, responsive
-          UI design, and performance optimization</span>.</p>
-        </div>
+      {/* Card 1 */}
+      <div className="exp-card">
+        <h2 className="company">Axcentra</h2>
+        <p className="meta">
+          Frontend Developer Intern • Remote • 02/2026 – 03/2026
+        </p>
 
-        <div className="exp2">
-          <h1>• Connecting Dreams Foundation (AICTE & VOIS) – Data Analytics & Power BI Intern | Remote | 06/2024– 07/2024</h1><br></br>
-          <p>• Designed interactive <span className="font-cge">Power BI dashboards</span> to visualize business KPIs 
-          and <span className="font-cge">improve data-driven decision making</span>.</p>
-          <p>• Performed SQL-based data cleaning and transformation to enhance reporting <span className="font-cge">accuracy</span> and 
-          <span className="font-cge">consistency</span>.</p>
-          <p>• Analyzed structured datasets and <span className="font-cge">created actionable insights</span> through 
-          optimized queries and <span className="font-cge">dashboard visualizations</span>.</p>
+        <ul>
+          <li>⚡ Built responsive portfolio with cross-device compatibility</li>
+          <li>🌐 Developed weather app using REST APIs (real-time data)</li>
+          <li>🧠 Built student dashboard with CRUD (JS)</li>
+          <li>🚀 Delivered 4+ projects (API, DOM, performance)</li>
+        </ul>
+
+        <div className="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>APIs</span>
         </div>
       </div>
-    </>
+
+      {/* Card 2 */}
+      <div className="exp-card">
+        <h2 className="company">Connecting Dreams Foundation</h2>
+        <p className="meta">
+          Data Analytics & Power BI Intern • Remote • 06/2024 – 07/2024
+        </p>
+
+        <ul>
+          <li>📊 Built Power BI dashboards for KPI tracking</li>
+          <li>🧹 Cleaned & transformed data using SQL</li>
+          <li>📈 Generated insights via optimized queries</li>
+        </ul>
+
+        <div className="tags">
+          <span>Power BI</span>
+          <span>SQL</span>
+          <span>Data Analysis</span>
+        </div>
+      </div>
+
+    </div>
   );
 }
 

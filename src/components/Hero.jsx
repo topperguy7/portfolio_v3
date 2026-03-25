@@ -8,8 +8,9 @@ function Hero(){
 
         <div className="hero-top">
           <h1>Hi, I'm <span className="inside">Parth</span> <span className="wave">👋</span></h1>
-          <h2>IT Engineering Student | Fullstack Developer</h2>
-          <h2>AI/ML Engineer</h2>
+          <h2><span className='highlight'>Full Stack Developer</span> building fast, scalable web apps<br></br>
+          Focused on <span className='highlight'>React, Node.js</span> & real-world problem solving</h2>
+          <p>I build interactive web applications, real-time tools, and user-focused products.</p>
         </div>
 
         <div className="hero-bot">
