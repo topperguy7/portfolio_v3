@@ -529,10 +529,11 @@ body{
 
   .player{
     padding: 2px;
+    flex-direction: column;
   }
 
   .hero{
-    margin-top: 50px;
+    margin-top: 200px;
   }
 
   .hero-top h1{
@@ -549,19 +550,20 @@ body{
   }
 
   .hero-bot{
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
   }
 
   .hero-bot h1{
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .hero-bot i{
-    font-size: 16px;
+    font-size: 34px;
   }
 
   .marque{
-    width: 140px;
+    width: 240px;
   }
 
   .project{

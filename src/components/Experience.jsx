@@ -6,7 +6,6 @@ function Experience() {
         ✨ Work Experience
       </h1>
 
-      {/* Card 1 */}
       <div className="exp-card">
         <h2 className="company">Axcentra</h2>
         <p className="meta">
@@ -28,7 +27,6 @@ function Experience() {
         </div>
       </div>
 
-      {/* Card 2 */}
       <div className="exp-card">
         <h2 className="company">Connecting Dreams Foundation</h2>
         <p className="meta">

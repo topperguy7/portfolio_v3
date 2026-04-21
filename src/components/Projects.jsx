@@ -47,10 +47,10 @@ function Projects(props){
                   NewsMania – News Aggregator Web Application
                 </h1>
                 <h3>⚡ Real-time <span className='font-cge'>●</span> 📰 News <span className='font-cge'>●</span> 🎯 Filtering</h3><br></br>
-                <p><span className='font-cge'>●</span>Built a dynamic news app using third-party API</p>
-                <p><span className='font-cge'>●</span>Implemented category-based filtering</p>
-                <p><span className='font-cge'>●</span>Rendered dynamic content using DOM manipulation</p>
-                <p><span className='font-cge'>●</span>Designed fully responsive UI</p><br></br>
+                <p><span className='font-cge'>●</span>Built a MERN app delivering real-time news across 8+ categories via third-party APIs.</p>
+                <p><span className='font-cge'>●</span>Implemented JWT and Bcrypt to prevent XSS and secure user sessions.</p>
+                <p><span className='font-cge'>●</span>Developed role-based search and route protection using custom middleware.</p>
+                <p><span className='font-cge'>●</span>Designed a responsive, mobile-first interface using Tailwind CSS with dark mode.</p><br></br>
                 <h2>
                   Techstack:<i className='devicon-react-plain colored'></i>
                             <i className='devicon-tailwindcss-plain colored'></i>
@@ -129,7 +129,7 @@ function Projects(props){
                 </h1>
                 <h3>🎮 Games <span className='font-cge'>●</span> ⚛️ React <span className='font-cge'>●</span> 🧠 State</h3><br></br>
                 <p><span className='font-cge'>●</span>Built multi-game platform using React</p>
-                <p><span className='font-cge'>●</span>Developed Tic-Tac-Toe and Hangman with state management</p>
+                <p><span className='font-cge'>●</span>Developed Tic-Tac-Toe and Hangman Memory with state management</p>
                 <p><span className='font-cge'>●</span>Designed scalable component-based architecture</p>
                 <p><span className='font-cge'>●</span>Created responsive and clean UI</p>
                 <br></br>
@@ -149,7 +149,7 @@ function Projects(props){
               </div>
             </div>
 
-            <div className="project-1">
+            <div className="project-1 hidden md:block">
               <div className='project-1-l'>
                 <h1>
                   Frontend Previewer – Browser-Based Live Code Editor
@@ -174,16 +174,16 @@ function Projects(props){
                 <img src={img1}/>
               </div>
             </div>
-            <div className="project-1">
+            <div className="project-1 hidden md:block">
               <div className='project-1-l'>
                 <h1>
                   NewsMania – News Aggregator Web Application
                 </h1>
                 <h3>⚡ Real-time <span className='font-cge'>●</span> 📰 News <span className='font-cge'>●</span> 🎯 Filtering</h3><br></br>
-                <p><span className='font-cge'>●</span>Built a dynamic news app using third-party API </p>
-                <p><span className='font-cge'>●</span>Implemented category-based filtering</p>
-                <p><span className='font-cge'>●</span>Rendered dynamic content using DOM manipulation</p>
-                <p><span className='font-cge'>●</span>Designed fully responsive UI</p><br></br>
+                <p><span className='font-cge'>●</span>Built a MERN app delivering real-time news across 8+ categories via third-party APIs.</p>
+                <p><span className='font-cge'>●</span>Implemented JWT and Bcrypt to prevent XSS and secure user sessions.</p>
+                <p><span className='font-cge'>●</span>Developed role-based search and route protection using custom middleware.</p>
+                <p><span className='font-cge'>●</span>Designed a responsive, mobile-first interface using Tailwind CSS with dark mode.</p><br></br>
                 <h2>
                   Techstack:<i className='devicon-react-plain colored'></i>
                             <i className='devicon-tailwindcss-plain colored'></i>
@@ -201,7 +201,7 @@ function Projects(props){
                 <img src={img2}/>
               </div>
             </div>
-            <div className="project-1">
+            <div className="project-1  hidden md:block">
               <div className='project-1-l'>
                 <h1>
                   Interactive Portfolio Website
@@ -228,7 +228,7 @@ function Projects(props){
                 <img src={img3}/>
               </div>
             </div>
-            <div className="project-1">
+            <div className="project-1  hidden md:block">
               <div className='project-1-l'>
                 <h1>
                   Jevan Pustak: Smart Indian Recipe Platform
@@ -255,7 +255,7 @@ function Projects(props){
                 <img src={img4}/>
               </div>
             </div>
-            <div className="project-1">
+            <div className="project-1 hidden md:block">
               <div className='project-1-l'>
                 <h1>
                   Yoo!Gamer – Multi-Game React Platform
