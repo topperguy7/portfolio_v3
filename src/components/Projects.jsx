@@ -48,9 +48,9 @@ function Projects(props){
                 </h1>
                 <h3>⚡ Real-time <span className='font-cge'>●</span> 📰 News <span className='font-cge'>●</span> 🎯 Filtering</h3><br></br>
                 <p><span className='font-cge'>●</span>Built a MERN app delivering real-time news across 8+ categories via third-party APIs.</p>
+                <p><span className='font-cge'>●</span>Integrated AI summarization using Gemini API</p>
                 <p><span className='font-cge'>●</span>Implemented JWT and Bcrypt to prevent XSS and secure user sessions.</p>
                 <p><span className='font-cge'>●</span>Developed role-based search and route protection using custom middleware.</p>
-                <p><span className='font-cge'>●</span>Designed a responsive, mobile-first interface using Tailwind CSS with dark mode.</p><br></br>
                 <h2>
                   Techstack:<i className='devicon-react-plain colored'></i>
                             <i className='devicon-tailwindcss-plain colored'></i>
@@ -181,9 +181,9 @@ function Projects(props){
                 </h1>
                 <h3>⚡ Real-time <span className='font-cge'>●</span> 📰 News <span className='font-cge'>●</span> 🎯 Filtering</h3><br></br>
                 <p><span className='font-cge'>●</span>Built a MERN app delivering real-time news across 8+ categories via third-party APIs.</p>
+                <p><span className='font-cge'>●</span>Integrated AI summarization using Gemini API</p>
                 <p><span className='font-cge'>●</span>Implemented JWT and Bcrypt to prevent XSS and secure user sessions.</p>
                 <p><span className='font-cge'>●</span>Developed role-based search and route protection using custom middleware.</p>
-                <p><span className='font-cge'>●</span>Designed a responsive, mobile-first interface using Tailwind CSS with dark mode.</p><br></br>
                 <h2>
                   Techstack:<i className='devicon-react-plain colored'></i>
                             <i className='devicon-tailwindcss-plain colored'></i>
