@@ -1,0 +1,114 @@
+[
+  {
+    "id": "img1",
+    "title": "Frontend Previewer – Browser-Based Live Code Editor",
+    "tags": ["⚡ Live", "💻 Editor", "👁 Preview"],
+    "points": [
+      "Built a browser-based live code editor with real-time preview using iframe",
+      "Added tab navigation and theme toggle for better usability",
+      "Implemented localStorage for persistent code saving"
+    ],
+    "techstack": [
+      "devicon-html5-plain colored",
+      "devicon-css3-plain colored",
+      "devicon-javascript-plain"
+    ],
+    "github": "https://github.com/topperguy7/frontend-previewer",
+    "live": "https://topperguy7.github.io/frontend-previewer/",
+    "liveLabel": "Live Demo"
+  },
+  {
+    "id": "img2",
+    "title": "NewsMania – News Aggregator Web Application",
+    "tags": ["⚡ Real-time", "📰 News", "🎯 Filtering"],
+    "points": [
+      "Built a MERN app delivering real-time news across 8+ categories via third-party APIs.",
+      "Integrated AI summarization using Gemini API",
+      "Implemented JWT and Bcrypt to prevent XSS and secure user sessions.",
+      "Developed role-based search and route protection using custom middleware."
+    ],
+    "techstack": [
+      "devicon-react-plain colored",
+      "devicon-tailwindcss-plain colored",
+      "devicon-nodejs-plain-wordmark colored",
+      "devicon-express-original colored"
+    ],
+    "github": "https://github.com/topperguy7/NewsMania",
+    "live": "",
+    "liveLabel": "Live (Coming Soon)"
+  },
+  {
+    "id": "img3",
+    "title": "Interactive Portfolio Website",
+    "tags": ["🎨 Animated", "🧩 Interactive", "📱 Responsive"],
+    "points": [
+      "Built a pixel-style portfolio with animated scrolling UI",
+      "Created dynamic pop-up sections (no page reloads)",
+      "Implemented smooth CSS animations and DOM interactions",
+      "Designed fully responsive layout"
+    ],
+    "techstack": [
+      "devicon-html5-plain colored",
+      "devicon-css3-plain colored",
+      "devicon-javascript-plain"
+    ],
+    "github": "https://github.com/topperguy7/portfolio_v2",
+    "live": "",
+    "liveLabel": "Live (Coming Soon)"
+  },
+  {
+    "id": "img4",
+    "title": "Jevan Pustak: Smart Indian Recipe Platform",
+    "tags": ["🍛 Recipes", "⏱ Timer", "📂 Categories"],
+    "points": [
+      "Developed recipe platform for regional Indian cuisines",
+      "Implemented categorized browsing with step-by-step guides",
+      "Built cooking timer using JavaScript",
+      "Designed responsive and user-friendly UI"
+    ],
+    "techstack": [
+      "devicon-html5-plain colored",
+      "devicon-css3-plain colored",
+      "devicon-javascript-plain"
+    ],
+    "github": "https://github.com/topperguy7/Jevanpustak",
+    "live": "https://topperguy7.github.io/Jevanpustak/",
+    "liveLabel": "Live Demo"
+  },
+  {
+    "id": "img5",
+    "title": "Yoo!Gamer – Multi-Game React Platform",
+    "tags": ["🎮 Games", "⚛️ React", "🧠 State"],
+    "points": [
+      "Built multi-game platform using React",
+      "Developed Tic-Tac-Toe and Hangman Memory with state management",
+      "Designed scalable component-based architecture",
+      "Created responsive and clean UI"
+    ],
+    "techstack": [
+      "devicon-react-plain colored",
+      "devicon-tailwindcss-plain colored"
+    ],
+    "github": "https://github.com/topperguy7/multi-game",
+    "live": "",
+    "liveLabel": "Live (Coming Soon)"
+  },
+  {
+    "id": "img6",
+    "title": "Finflow – Smart Expense Tracker",
+    "tags": ["🎮 Games", "⚛️ React", "🧠 State"],
+    "points": [
+      "Built finance tracker with interactive dashboards and visual charts",
+      "Developed transaction management with smart spending trend insights",
+      "Implemented LocalStorage data persistence and Context API state",
+      "Designed responsive Tailwind UI with dark/light mode toggle"
+    ],
+    "techstack": [
+      "devicon-react-plain colored",
+      "devicon-tailwindcss-plain colored"
+    ],
+    "github": "https://github.com/topperguy7/FinFlow",
+    "live": "https://finflow-topperguy.netlify.app/",
+    "liveLabel": "Live Demo"
+  }
+]
