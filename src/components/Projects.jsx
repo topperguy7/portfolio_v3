@@ -5,6 +5,7 @@ import img3 from './images/project-3.png'
 import img4 from './images/project-4.png'
 import img5 from './images/project-5.png'
 import img6 from './images/project-6.png'
+import img7 from './images/project-7.png'
 
 function Projects(props){
 
@@ -175,6 +176,35 @@ function Projects(props){
                 <img src={img6}/>
               </div>
             </div>
+            <div className="project-1 hidden md:block">
+              <div className='project-1-l'>
+                <h1>
+                  LEED Certification Predictor
+                </h1>
+                <h3>⚡ Real-Time<span className='font-cge'>●</span>🧠 ML<span className='font-cge'>●</span>🌿 Eco UI</h3><br></br>
+                <p><span className='font-cge'>●</span>Migrated an ML model into a full-stack React and Node.js/Express application.</p>
+                <p><span className='font-cge'>●</span>Used onnxruntime-node for real-time, low-latency backend ML execution.</p>
+                <p><span className='font-cge'>●</span>Designed a responsive interface collecting 13 structural and climate metrics.</p>
+                <p><span className='font-cge'>●</span>Raised model accuracy from 71% to 86% via hyperparameter tuning.</p>
+                <br></br>
+                <h2>
+                  Techstack:<i className='devicon-react-plain colored'></i>
+                            <i className='devicon-nodejs-plain colored'></i>
+                            <i className='devicon-express-original'></i>
+                            <i className='devicon-typescript-plain colored'></i>
+                            <i className='devicon-tailwindcss-plain colored'></i>
+                </h2><br></br>
+                <a href='https://github.com/topperguy7/leed_ml_web' 
+                target='_blank' rel='noopener noreferrer'
+                className='text-blue-500 hover:text-red-400'><h2>View Code</h2></a>
+                <a 
+                target='_blank' rel='noopener noreferrer' 
+                className='text-blue-500 hover:text-red-400'><h2>Live (Coming Soon)</h2></a>
+              </div>
+              <div className='project-1-r'>
+                <img src={img7}/>
+              </div>
+            </div>
 
             <div className="project-1 hidden md:block">
               <div className='project-1-l'>
@@ -332,6 +362,35 @@ function Projects(props){
               </div>
               <div className='project-1-r'>
                 <img src={img6}/>
+              </div>
+            </div>
+            <div className="project-1 hidden md:block">
+              <div className='project-1-l'>
+                <h1>
+                  LEED Certification Predictor - 
+                </h1>
+                <h3>⚡ Real-Time<span className='font-cge'>●</span>🧠 ML<span className='font-cge'>●</span>🌿 Eco UI</h3><br></br>
+                <p><span className='font-cge'>●</span>Migrated an ML model into a full-stack React and Node.js/Express application.</p>
+                <p><span className='font-cge'>●</span>Used onnxruntime-node for real-time, low-latency backend ML execution.</p>
+                <p><span className='font-cge'>●</span>Designed a responsive interface collecting 13 structural and climate metrics.</p>
+                <p><span className='font-cge'>●</span>Raised model accuracy from 71% to 86% via hyperparameter tuning.</p>
+                <br></br>
+                <h2>
+                  Techstack:<i className='devicon-react-plain colored'></i>
+                            <i className='devicon-nodejs-plain colored'></i>
+                            <i className='devicon-express-original'></i>
+                            <i className='devicon-typescript-plain colored'></i>
+                            <i className='devicon-tailwindcss-plain colored'></i>
+                </h2><br></br>
+                <a href='https://github.com/topperguy7/leed_ml_web' 
+                target='_blank' rel='noopener noreferrer'
+                className='text-blue-500 hover:text-red-400'><h2>View Code</h2></a>
+                <a 
+                target='_blank' rel='noopener noreferrer' 
+                className='text-blue-500 hover:text-red-400'><h2>Live (Coming Soon)</h2></a>
+              </div>
+              <div className='project-1-r'>
+                <img src={img7}/>
               </div>
             </div>
 
